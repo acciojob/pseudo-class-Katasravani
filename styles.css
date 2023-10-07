@@ -3,15 +3,15 @@
 	margin:20px;
 }
 #container::before {
-    content: "Before Element ";
-	color:red;/* Add content before the element */
+    content: " Before Element ";
+	color:#f00;/* Add content before the element */
 	font-size:20px;
 	
 }
 
 #container::after {
     content: " After Element"; 
-	color:red;/* Add content after the element */
+	color:#f00;/* Add content after the element */
 	font-size:20px;
 }
 
